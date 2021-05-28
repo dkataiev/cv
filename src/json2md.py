@@ -55,8 +55,10 @@ def career_summary_block(data):
     return PARAGRAPH_SEPARATOR.join([h3('Career Summary:'), data])
 
 
-def career_progression_block(cv):
-    return ''
+def career_progression_block(data):
+    progression = [c['title'] for c in data]
+    progression[0:0] = [h3('Career Progression:')]
+    return PARAGRAPH_SEPARATOR.join(progression)
 
 
 def language_skills_block(data):
@@ -100,7 +102,7 @@ def generate_md(cv):
         head_block(cv['name'], cv['title']),
         contacts_block(cv['contacts']),
         career_summary_block(cv['careerSummary']),
-        # career_progression_block(cv),
+        career_progression_block(cv['careerProgression']),
         language_skills_block(cv['languageSkills']),
         online_education_block(cv['onlineEducation']),
         classic_education_block(cv['classicEducation']),
