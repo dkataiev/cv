@@ -16,6 +16,27 @@ def h3(text):
     return '### {}'.format(text)
 
 
+def strong(text):
+    return '__{}__'.format(text)
+
+
+def li(text):
+    return '* {}'.format(text)
+
+
+def ul(title, items):
+    list = [li(i) for i in items]
+    list[0:0] = [h3(title)]
+    return PARAGRAPH_SEPARATOR.join(list)
+
+def link(title, body):
+    return '[{}]({})'.format(title, body)
+
+def contact_text(contact):
+    contact_type = strong(contact['type'])
+    contact_link = link(contact['title'], contact['link'])
+    return ' '.join([contact_type, contact_link])
+
 def head_block(cv):
     return PARAGRAPH_SEPARATOR.join([
         h2(cv['name']),
@@ -23,9 +44,14 @@ def head_block(cv):
     ])
 
 
+def contacts_block(contacts):
+    return ul('Contacts', [contact_text(c) for c in contacts])
+
+
 def generate_md(cv):
     return BLOCK_SEPARATOR.join([
-        head_block(cv)
+        head_block(cv),
+        contacts_block(cv['contacts'])
     ])
 
 
