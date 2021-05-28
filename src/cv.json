@@ -185,10 +185,10 @@
     ],
     "classicEducation": [
         {
-            "institution": "Cherkasy State University 'Bohdan Hmelnycky",
+            "institution": "Cherkasy State University 'Bohdan Hmelnycky'",
             "start": "2004",
             "end": "2008",
-            "acchivements": [
+            "achivements": [
                 "Diploma of Bachelor in 'Intellectual systems of decision-making'",
                 "I participated in additional workshops where got an experience of software development process using concepts of TDD, XP and Agile"
             ]
@@ -196,7 +196,8 @@
         {
             "institution": "Cherkasy Specialized school #17",
             "start": "1994",
-            "end": "2004"
+            "end": "2004",
+            "achivements": []
         }
     ],
     "onlineEducation": [
@@ -204,16 +205,15 @@
             "title": "M101P: MongoDB for Developers",
             "start": "November 2013",
             "end": "January 2014",
-            "score": "B - 80%",
             "certificate": "https://s3.amazonaws.com/edu-cert.10gen.com/downloads/566ffd62c0d647e89c136dab5ad86a49/Certificate.pdf",
-            "service": "MongoDB University"
+            "platform": "MongoDB University"
         },
         {
-            "title": "Fundamentals of IoT Development with ThingWo",
+            "title": "Fundamentals of IoT Development with ThingWorx",
             "start": "August 2018",
             "end": "August 2018",
             "certificate": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-17U79RE4.pdf",
-            "service": "Udemy"
+            "platform": "Udemy"
         }
     ],
     "furtherInterests": [

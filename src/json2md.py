@@ -29,29 +29,82 @@ def ul(title, items):
     list[0:0] = [h3(title)]
     return PARAGRAPH_SEPARATOR.join(list)
 
+
 def link(title, body):
     return '[{}]({})'.format(title, body)
+
 
 def contact_text(contact):
     contact_type = strong(contact['type'])
     contact_link = link(contact['title'], contact['link'])
     return ' '.join([contact_type, contact_link])
 
-def head_block(cv):
+
+def head_block(name, title):
     return PARAGRAPH_SEPARATOR.join([
-        h2(cv['name']),
-        h3(cv['title']),
+        h2(name),
+        h3(title)
     ])
 
 
-def contacts_block(contacts):
-    return ul('Contacts', [contact_text(c) for c in contacts])
+def contacts_block(data):
+    return ul('Contacts:', [contact_text(c) for c in data])
+
+
+def career_summary_block(data):
+    return PARAGRAPH_SEPARATOR.join([h3('Career Summary:'), data])
+
+
+def career_progression_block(cv):
+    return ''
+
+
+def language_skills_block(data):
+    return ul('Language Skills:', data)
+
+
+def online_education_item_title(ed):
+    if ed['start'] == ed['end']:
+        title = title = "{} ({})".format(ed['title'], ed['start'])
+        return strong(title)
+
+    title = title = "{} ({} - {})".format(ed['title'], ed['start'], ed['end'])
+    return strong(title)
+
+
+def online_education_item(ed):
+    return '[{}] {} {} '.format(ed['platform'], online_education_item_title(ed), link('Certificate', ed['certificate']))
+
+
+def online_education_block(data):
+    return ul('Online education:', [online_education_item(ed) for ed in data])
+
+
+def classic_education_item(ed):
+    title = '{} ({} - {})'.format(ed['institution'], ed['start'], ed['end'])
+    achivements = PARAGRAPH_SEPARATOR.join(
+        ['\t{}'.format(li(a)) for a in ed['achivements']])
+    return PARAGRAPH_SEPARATOR.join([strong(title), achivements])
+
+
+def classic_education_block(data):
+    return ul('Education:', [classic_education_item(ed) for ed in data])
+
+
+def further_interests_block(data):
+    return ul('Further Interests:', [link(d['title'], d['url']) for d in data])
 
 
 def generate_md(cv):
     return BLOCK_SEPARATOR.join([
-        head_block(cv),
-        contacts_block(cv['contacts'])
+        head_block(cv['name'], cv['title']),
+        contacts_block(cv['contacts']),
+        career_summary_block(cv['careerSummary']),
+        # career_progression_block(cv),
+        language_skills_block(cv['languageSkills']),
+        online_education_block(cv['onlineEducation']),
+        classic_education_block(cv['classicEducation']),
+        further_interests_block(cv['furtherInterests'])
     ])
 
 
