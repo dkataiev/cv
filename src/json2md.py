@@ -35,7 +35,7 @@ def link(title, body):
 
 
 def contact_text(contact):
-    contact_type = strong(contact['type'])
+    contact_type = strong('{}:'.format(contact['type']))
     contact_link = link(contact['title'], contact['link'])
     return ' '.join([contact_type, contact_link])
 
