@@ -1,0 +1,13 @@
+{
+    "name": "Dmytro Kataiev",
+    "title": "Java Developer",
+    "birthDate": "12.09.1987",
+    "contacts": [
+        {
+            "email": "d.kataiev@gmail.com"
+        },
+        {
+            "LinkedIn": "https://www.linkedin.com/in/dkataiev/"
+        }
+    ]
+}
