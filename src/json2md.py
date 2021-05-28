@@ -16,8 +16,16 @@ def h3(text):
     return '### {}'.format(text)
 
 
+def h4(text):
+    return '#### {}'.format(text)
+
+
 def strong(text):
     return '__{}__'.format(text)
+
+
+def italic(text):
+    return '*{}*'.format(text)
 
 
 def li(text):
@@ -55,9 +63,32 @@ def career_summary_block(data):
     return PARAGRAPH_SEPARATOR.join([h3('Career Summary:'), data])
 
 
+def titled_item(title, text):
+    return "{} {}".format(strong(title), text)
+
+
+def project_item(data):
+    return PARAGRAPH_SEPARATOR.join([
+        li(titled_item("Project description:", data['description'])),
+        li(titled_item("Project role:", data['role'])),
+        li(titled_item("Employment type:", data['employmentType'])),
+        li(titled_item("Team size:", data['teamSize']))
+    ])
+
+
+def career_progression_item(data):
+    period = '{} - {}'.format(data['start'], data['end'])
+    title = "'{}' {}".format(data['title'], italic(period))
+
+    items = [project_item(p) for p in data['projects']]
+    items[0:0] = [titled_item("Company Description:",
+                              data['companyDescription'])]
+    return ul(title, items)
+
+
 def career_progression_block(data):
-    progression = [c['title'] for c in data]
-    progression[0:0] = [h3('Career Progression:')]
+    progression = [career_progression_item(c) for c in data]
+    progression[0:0] = [h2('Career Progression:')]
     return PARAGRAPH_SEPARATOR.join(progression)
 
 
