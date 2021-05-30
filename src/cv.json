@@ -31,43 +31,36 @@
             "start": "August 2019",
             "end": "Present",
             "companyDescription": "Nanga Systems is the IT specialist for systems engineering (SE), application lifecycle management (ALM) and product lifecycle management (PLM). We advise large corporate groups and SMEs on issues ranging from their strategic alignment to their go-live, including solutions from PTC.",
-            "projects": [
-                {
-                    "description": "PTC Integrity and ThingWorx integration.",
-                    "role": "Senior Java developer / Project Manager.",
-                    "employmentType": "full employment.",
-                    "teamSize": "5-10 members.",
-                    "responsibilities": [
-                        "Custom PTC Integrity and ThingWorx integration"
-                    ],
-                    "technologies": [
-                        "Atlassian Plugin SDK",
-                        "PTC Integrity",
-                        "ThingWorx"
-                    ]
-                }
+            "projectDescription": "PTC Integrity and ThingWorx integration.",
+            "role": "Senior Java developer / Project Manager.",
+            "employmentType": "full employment.",
+            "teamSize": "5-10 members.",
+            "responsibilities": [
+                "Custom PTC Integrity and ThingWorx integration"
+            ],
+            "technologies": [
+                "Atlassian Plugin SDK",
+                "PTC Integrity",
+                "ThingWorx"
             ]
+                
         },
         {
             "title": "Princip_IT",
             "start": "September 2017",
             "end": "July 2019",
             "companyDescription": "PRINCIP_IT is a software development company located in Kiev which creates both universal and custom IT solutions based on profound market know how.",
-            "projects": [
-                {
-                    "description": "Atlassian Confluence based document workflow plugin.",
-                    "role": "Senior Java developer.",
-                    "employmentType": "full employment.",
-                    "teamSize": "5-10 members.",
-                    "responsibilities": [
-                        "Core and UI components implementation."
-                    ],
-                    "technologies": [
-                        "Atlassian Plugin SDK",
-                        "Spring 3.x",
-                        "REST, Ajax"
-                    ]
-                }
+            "projectDescription": "Atlassian Confluence based document workflow plugin.",
+            "role": "Senior Java developer.",
+            "employmentType": "full employment.",
+            "teamSize": "5-10 members.",
+            "responsibilities": [
+                "Core and UI components implementation."
+            ],
+            "technologies": [
+                "Atlassian Plugin SDK",
+                "Spring 3.x",
+                "REST, Ajax"
             ]
         },
         {
@@ -75,30 +68,26 @@
             "start": "May 2014",
             "end": "September 2017",
             "companyDescription": "NPBFX Company specializes in providing trading services on FOREX for individual traders and institutional clients.",
-            "projects": [
-                {
-                    "description": "Spring-based CRM system and client's personal office.",
-                    "role": "Senior Java developer.",
-                    "employmentType": "remote work.",
-                    "teamSize": "5-10 members.",
-                    "responsibilities": [
-                        "Communication with the customer to determine product functionality, define the architecture and estimate the overall work",
-                        "Designing application from scratch",
-                        "Core and UI components implementation",
-                        "Application integration with trade system platform",
-                        "Application integration with third-party services (SorexPay, OragePay, NexmoSMS)",
-                        "Build and deploy automation",
-                        "Product delivery"
-                    ],
-                    "technologies": [
-                        "Spring 3.x, Hibernate",
-                        "ActiveMQ, GRPC, XML-RPC, Corba",
-                        "JSP, Twitter Bootstrap",
-                        "REST, Ajax",
-                        "Tomcat 7.x",
-                        "PostgreSQL"
-                    ]
-                }
+            "projectDescription": "Spring-based CRM system and client's personal office.",
+            "role": "Senior Java developer.",
+            "employmentType": "remote work.",
+            "teamSize": "5-10 members.",
+            "responsibilities": [
+                "Communication with the customer to determine product functionality, define the architecture and estimate the overall work",
+                "Designing application from scratch",
+                "Core and UI components implementation",
+                "Application integration with trade system platform",
+                "Application integration with third-party services (SorexPay, OragePay, NexmoSMS)",
+                "Build and deploy automation",
+                "Product delivery"
+            ],
+            "technologies": [
+                "Spring 3.x, Hibernate",
+                "ActiveMQ, GRPC, XML-RPC, Corba",
+                "JSP, Twitter Bootstrap",
+                "REST, Ajax",
+                "Tomcat 7.x",
+                "PostgreSQL"
             ]
         },
         {
@@ -107,25 +96,21 @@
             "start": "July 2011",
             "end": "May 2014",
             "companyDescription": "Small company focused on developing financial software for large investment companies and brokers operating on the OTC markets (Forex, CFD).",
-            "projects": [
-                {
-                    "description": "Eclipse RCP based Forex trading system client terminal.",
-                    "role": "Middle Java developer.",
-                    "employmentType": "remote work.",
-                    "teamSize": "2-5 members.",
-                    "responsibilities": [
-                        "Core and UI plugin implementation",
-                        "Client API implementation",
-                        "Eclipse RCP application localization",
-                        "Multiplatform Eclipse RCP application build automation"
-                    ],
-                    "technologies": [
-                        "Eclipse RCP, SWT, OSGi",
-                        "ActiveMQ, XML-RPC, Corba",
-                        "Ant, WiX",
-                        "PostgreSQL"
-                    ]
-                }
+            "projectDescription": "Eclipse RCP based Forex trading system client terminal.",
+            "role": "Middle Java developer.",
+            "employmentType": "remote work.",
+            "teamSize": "2-5 members.",
+            "responsibilities": [
+                "Core and UI plugin implementation",
+                "Client API implementation",
+                "Eclipse RCP application localization",
+                "Multiplatform Eclipse RCP application build automation"
+            ],
+            "technologies": [
+                "Eclipse RCP, SWT, OSGi",
+                "ActiveMQ, XML-RPC, Corba",
+                "Ant, WiX",
+                "PostgreSQL"
             ]
         },
         {
@@ -134,25 +119,21 @@
             "start": "October 2010",
             "end": "May 2011",
             "companyDescription": "Finland's leading supplier of SMS solutions. Over 1,500 Finnish companies and organizations are using company's services.",
-            "projects": [
-                {
-                    "description": "Highly functional mobile services for text and multimedia messaging.",
-                    "role": "Junior Java developer.",
-                    "employmentType": "full employment.",
-                    "teamSize": "5-10 members.",
-                    "responsibilities": [
-                        "Enterprise level Web application development",
-                        "Integration of this application with third party applications via. REST web services",
-                        "Core and UI components implementation"
-                    ],
-                    "technologies": [
-                        "Spring 2.x, Ibatis, DWR",
-                        "HTML, CSS, JavaScript",
-                        "REST, Ajax",
-                        "Maven",
-                        "MySql"
-                    ]
-                }
+            "projectDescription": "Highly functional mobile services for text and multimedia messaging.",
+            "role": "Junior Java developer.",
+            "employmentType": "full employment.",
+            "teamSize": "5-10 members.",
+            "responsibilities": [
+                "Enterprise level Web application development",
+                "Integration of this application with third party applications via. REST web services",
+                "Core and UI components implementation"
+            ],
+            "technologies": [
+                "Spring 2.x, Ibatis, DWR",
+                "HTML, CSS, JavaScript",
+                "REST, Ajax",
+                "Maven",
+                "MySql"
             ]
         },
         {
@@ -161,25 +142,21 @@
             "start": "April 2008",
             "end": "August 2010",
             "companyDescription": "Nanga Systems is the IT specialist for systems engineering (SE), application lifecycle management (ALM) and product lifecycle management (PLM). We advise large corporate groups and SMEs on issues ranging from their strategic alignment to their go-live, including solutions from PTC.",
-            "projects": [
-                {
-                    "description": "Enterprise Social collaboration software.",
-                    "role": "Junior Java developer.",
-                    "employmentType": "full employment.",
-                    "teamSize": "5-10 members.",
-                    "responsibilities": [
-                        "REST-services implementation",
-                        "WebDAV protocol specification implementation",
-                        "WebDAV-client plugins for MS Office and OpenOffice",
-                        "Build and Release process improvement"
-                    ],
-                    "technologies": [
-                        "Hibernate",
-                        "XML, Json",
-                        "JUnit, Japex",
-                        "Maven"
-                    ]
-                }
+            "projectDescription": "Enterprise Social collaboration software.",
+            "role": "Junior Java developer.",
+            "employmentType": "full employment.",
+            "teamSize": "5-10 members.",
+            "responsibilities": [
+                "REST-services implementation",
+                "WebDAV protocol specification implementation",
+                "WebDAV-client plugins for MS Office and OpenOffice",
+                "Build and Release process improvement"
+            ],
+            "technologies": [
+                "Hibernate",
+                "XML, Json",
+                "JUnit, Japex",
+                "Maven"
             ]
         }
     ],

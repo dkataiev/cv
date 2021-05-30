@@ -38,6 +38,12 @@ def ul(title, items):
     return PARAGRAPH_SEPARATOR.join(list)
 
 
+def sub_ul(title, items):
+    list = ['\t{}'.format(li(i)) for i in items]
+    list[0:0] = [li(strong(title))]
+    return PARAGRAPH_SEPARATOR.join(list)
+
+
 def link(title, body):
     return '[{}]({})'.format(title, body)
 
@@ -68,22 +74,25 @@ def titled_item(title, text):
 
 
 def project_item(data):
-    return PARAGRAPH_SEPARATOR.join([
-        li(titled_item("Project description:", data['description'])),
-        li(titled_item("Project role:", data['role'])),
-        li(titled_item("Employment type:", data['employmentType'])),
-        li(titled_item("Team size:", data['teamSize']))
-    ])
+    return [
+        titled_item("Project description:", data['projectDescription']),
+        titled_item("Project role:", data['role']),
+        titled_item("Employment type:", data['employmentType']),
+        titled_item("Team size:", data['teamSize'])
+    ]
 
 
 def career_progression_item(data):
     period = '{} - {}'.format(data['start'], data['end'])
     title = "'{}' {}".format(data['title'], italic(period))
 
-    items = [project_item(p) for p in data['projects']]
+    items = project_item(data)
     items[0:0] = [titled_item("Company Description:",
                               data['companyDescription'])]
-    return ul(title, items)
+    progresssion_item = ul(title, items)
+    technologies = sub_ul('Technologies:', data['technologies'])
+    responsibilities = sub_ul('Responsibilities:', data['responsibilities'])
+    return PARAGRAPH_SEPARATOR.join([progresssion_item, responsibilities, technologies])
 
 
 def career_progression_block(data):
