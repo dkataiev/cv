@@ -7,6 +7,8 @@ CV_JSON = 'src/cv.json'
 BLOCK_SEPARATOR = '\n\n___\n\n'
 PARAGRAPH_SEPARATOR = '\n'
 
+HR = '---'
+
 
 def h2(text):
     return '## {}'.format(text)
@@ -97,8 +99,8 @@ def career_progression_item(data):
 
 def career_progression_block(data):
     progression = [career_progression_item(c) for c in data]
-    progression[0:0] = [h2('Career Progression:')]
-    return PARAGRAPH_SEPARATOR.join(progression)
+    progression_block = BLOCK_SEPARATOR.join(progression)
+    return PARAGRAPH_SEPARATOR.join([h2('Career Progression:'), progression_block])
 
 
 def language_skills_block(data):
