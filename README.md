@@ -28,6 +28,9 @@ ___
 	* Atlassian Plugin SDK
 	* PTC Integrity
 	* ThingWorx
+
+___
+
 ### 'Princip_IT' *September 2017 - July 2019*
 * __Company Description:__ PRINCIP_IT is a software development company located in Kiev which creates both universal and custom IT solutions based on profound market know how.
 * __Project description:__ Atlassian Confluence based document workflow plugin.
@@ -40,6 +43,9 @@ ___
 	* Atlassian Plugin SDK
 	* Spring 3.x
 	* REST, Ajax
+
+___
+
 ### 'NPBFX' *May 2014 - September 2017*
 * __Company Description:__ NPBFX Company specializes in providing trading services on FOREX for individual traders and institutional clients.
 * __Project description:__ Spring-based CRM system and client's personal office.
@@ -61,6 +67,9 @@ ___
 	* REST, Ajax
 	* Tomcat 7.x
 	* PostgreSQL
+
+___
+
 ### 'AFT Project' *July 2011 - May 2014*
 * __Company Description:__ Small company focused on developing financial software for large investment companies and brokers operating on the OTC markets (Forex, CFD).
 * __Project description:__ Eclipse RCP based Forex trading system client terminal.
@@ -77,6 +86,9 @@ ___
 	* ActiveMQ, XML-RPC, Corba
 	* Ant, WiX
 	* PostgreSQL
+
+___
+
 ### 'Labyrintti Media Ltd' *October 2010 - May 2011*
 * __Company Description:__ Finland's leading supplier of SMS solutions. Over 1,500 Finnish companies and organizations are using company's services.
 * __Project description:__ Highly functional mobile services for text and multimedia messaging.
@@ -93,6 +105,9 @@ ___
 	* REST, Ajax
 	* Maven
 	* MySql
+
+___
+
 ### 'eXo Platform SAS UA' *April 2008 - August 2010*
 * __Company Description:__ Nanga Systems is the IT specialist for systems engineering (SE), application lifecycle management (ALM) and product lifecycle management (PLM). We advise large corporate groups and SMEs on issues ranging from their strategic alignment to their go-live, including solutions from PTC.
 * __Project description:__ Enterprise Social collaboration software.
