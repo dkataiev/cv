@@ -1,5 +1,7 @@
-import datetime
 import json
+import os
+
+from datetime import date
 
 README_MD_FILE = 'README.md'
 CV_JSON = 'src/cv.json'
@@ -48,6 +50,17 @@ def sub_ul(title, items):
 
 def link(title, body):
     return '[{}]({})'.format(title, body)
+
+def code(text):
+    return '```{}```'.format(text)
+
+def meta():
+    repo = os.getenv('GITHUB_REPOSITORY')
+    server = os.getenv('GITHUB_SERVER_URL')
+    sha = os.getenv('GITHUB_SHA')
+    commit_url = '{}/{}/commit/{}'.format(server, repo, sha)
+    
+    return 'Updated on {} [{}]'.format(date.today(), link(sha[:7], commit_url))
 
 
 def contact_text(contact):
@@ -148,7 +161,8 @@ def generate_md(cv):
         language_skills_block(cv['languageSkills']),
         online_education_block(cv['onlineEducation']),
         classic_education_block(cv['classicEducation']),
-        further_interests_block(cv['furtherInterests'])
+        further_interests_block(cv['furtherInterests']),
+        meta()
     ])
 
 

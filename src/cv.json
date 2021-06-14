@@ -39,17 +39,17 @@
                 "Custom PTC Integrity and ThingWorx integration"
             ],
             "technologies": [
-                "Atlassian Plugin SDK",
-                "PTC Integrity",
-                "ThingWorx"
+                "Java 8, Spring, Spring Boot",
+                "ThingWorx, PTC Integrity",
+                "Typescript, HTML, CSS, jQuery",
+                "REST, Ajax"
             ]
-                
         },
         {
             "title": "Princip_IT",
             "start": "September 2017",
             "end": "July 2019",
-            "companyDescription": "PRINCIP_IT is a software development company located in Kiev which creates both universal and custom IT solutions based on profound market know how.",
+            "companyDescription": "Princip_IT is a software development company located in Kiev which creates both universal and custom IT solutions based on profound market know how.",
             "projectDescription": "Atlassian Confluence based document workflow plugin.",
             "role": "Senior Java developer.",
             "employmentType": "full employment.",
@@ -58,8 +58,9 @@
                 "Core and UI components implementation."
             ],
             "technologies": [
-                "Atlassian Plugin SDK",
-                "Spring 3.x",
+                "Java 8, Spring, Spring Boot",
+                "Atlassian Plugin SDK, ThingWorx, PTC Integrity",
+                "JavaScript, HTML, CSS, jQuery",
                 "REST, Ajax"
             ]
         },
@@ -197,6 +198,10 @@
         {
             "title": "Photography",
             "url": "https://dk.gallery"
+        },
+        {
+            "title": "Go (Baduk)",
+            "url": "https://www.gokgs.com/graphPage.jsp?user=dkataiev"
         }
     ]
 }
