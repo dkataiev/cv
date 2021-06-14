@@ -39,11 +39,11 @@
                 "Custom PTC Integrity and ThingWorx integration"
             ],
             "technologies": [
-                "Atlassian Plugin SDK",
-                "PTC Integrity",
-                "ThingWorx"
+                "Java 8, Spring, Spring Boot",
+                "ThingWorx, PTC Integrity",
+                "Typescript, HTML, CSS, jQuery",
+                "REST, Ajax"
             ]
-                
         },
         {
             "title": "Princip_IT",
@@ -58,8 +58,9 @@
                 "Core and UI components implementation."
             ],
             "technologies": [
-                "Atlassian Plugin SDK",
-                "Spring 3.x",
+                "Java 8, Spring, Spring Boot",
+                "Atlassian Plugin SDK, ThingWorx, PTC Integrity",
+                "JavaScript, HTML, CSS, jQuery",
                 "REST, Ajax"
             ]
         },
