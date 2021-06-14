@@ -25,14 +25,15 @@ ___
 * __Responsibilities:__
 	* Custom PTC Integrity and ThingWorx integration
 * __Technologies:__
-	* Atlassian Plugin SDK
-	* PTC Integrity
-	* ThingWorx
+	* Java 8, Spring, Spring Boot
+	* ThingWorx, PTC Integrity
+	* Typescript, HTML, CSS, jQuery
+	* REST, Ajax
 
 ___
 
 ### 'Princip_IT' *September 2017 - July 2019*
-* __Company Description:__ PRINCIP_IT is a software development company located in Kiev which creates both universal and custom IT solutions based on profound market know how.
+* __Company Description:__ Princip_IT is a software development company located in Kiev which creates both universal and custom IT solutions based on profound market know how.
 * __Project description:__ Atlassian Confluence based document workflow plugin.
 * __Project role:__ Senior Java developer.
 * __Employment type:__ full employment.
@@ -40,8 +41,9 @@ ___
 * __Responsibilities:__
 	* Core and UI components implementation.
 * __Technologies:__
-	* Atlassian Plugin SDK
-	* Spring 3.x
+	* Java 8, Spring, Spring Boot
+	* Atlassian Plugin SDK, ThingWorx, PTC Integrity
+	* JavaScript, HTML, CSS, jQuery
 	* REST, Ajax
 
 ___
@@ -151,3 +153,8 @@ ___
 
 ### Further Interests:
 * [Photography](https://dk.gallery)
+* [Go (Baduk)](https://www.gokgs.com/graphPage.jsp?user=dkataiev)
+
+___
+
+Updated on 2021-06-14 [[83fd0f9](https://github.com/dkataiev/cv/commit/83fd0f95b20850ed3706d847a2f5f7b3be85c710)]
