@@ -49,7 +49,7 @@
             "title": "Princip_IT",
             "start": "September 2017",
             "end": "July 2019",
-            "companyDescription": "PRINCIP_IT is a software development company located in Kiev which creates both universal and custom IT solutions based on profound market know how.",
+            "companyDescription": "Princip_IT is a software development company located in Kiev which creates both universal and custom IT solutions based on profound market know how.",
             "projectDescription": "Atlassian Confluence based document workflow plugin.",
             "role": "Senior Java developer.",
             "employmentType": "full employment.",
@@ -198,6 +198,10 @@
         {
             "title": "Photography",
             "url": "https://dk.gallery"
+        },
+        {
+            "title": "Go (Baduk)",
+            "url": "https://www.gokgs.com/graphPage.jsp?user=dkataiev"
         }
     ]
 }
