@@ -1,6 +1,9 @@
 
 name: Generate CV Files
-on: [workflow_dispatch]
+on:
+  pull_request:
+    branches:
+      - main
 jobs:
   Update_README_MD:
     runs-on: ubuntu-latest
