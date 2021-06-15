@@ -24,6 +24,10 @@ def h4(text):
     return '#### {}'.format(text)
 
 
+def h6(text):
+    return '###### {}'.format(text)
+
+
 def strong(text):
     return '__{}__'.format(text)
 
@@ -51,16 +55,14 @@ def sub_ul(title, items):
 def link(title, body):
     return '[{}]({})'.format(title, body)
 
-def code(text):
-    return '```{}```'.format(text)
 
 def meta():
     repo = os.getenv('GITHUB_REPOSITORY')
     server = os.getenv('GITHUB_SERVER_URL')
     sha = os.getenv('GITHUB_SHA')
     commit_url = '{}/{}/commit/{}'.format(server, repo, sha)
-    
-    return 'Updated on {} [{}]'.format(date.today(), link(sha[:7], commit_url))
+
+    return h6('Updated on {} [{}]'.format(date.today(), link(sha[:7], commit_url)))
 
 
 def contact_text(contact):
