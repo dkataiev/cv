@@ -22,4 +22,8 @@ jobs:
           git config --global pull.rebase false
           git add -f README.md
           git commit -m "[${{ github.job }}]: update README.md"
-          git push origin ${{ github.head_ref }}
+      - name: Push changes
+        uses: ad-m/github-push-action@0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
