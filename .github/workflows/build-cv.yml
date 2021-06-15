@@ -19,7 +19,5 @@ jobs:
         run: |
           git config --global user.name "Actions bot"
           git config --global user.email "bot@mail.com"
-          git config --global pull.rebase false
-          git add -f README.md
-          git commit -m "[${{ github.job }}]: update README.md"
-          git push origin ${{ github.ref }}
+          git commit -am "[${{ github.job }}]: update README.md"
+          git push
