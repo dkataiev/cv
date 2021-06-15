@@ -20,4 +20,4 @@ jobs:
           git config --global user.name "Actions bot"
           git config --global user.email "bot@mail.com"
           git commit -am "[${{ github.job }}]: update README.md"
-          git push origin ${{ github.ref##*/ }}
+          git push origin ${GITHUB_REF##*/}
