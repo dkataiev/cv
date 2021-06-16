@@ -27,7 +27,7 @@ ___
 * __Technologies:__
 	* Java 8, Spring, Spring Boot
 	* ThingWorx, PTC Integrity
-	* Typescript, HTML, CSS, jQuery
+	* React, Typescript, HTML, CSS
 	* REST, Ajax
 
 ___
@@ -157,4 +157,4 @@ ___
 
 ___
 
-###### Updated on 2021-06-16 [[6df43f8](https://github.com/dkataiev/cv/commit/6df43f87cb044763ee12ec702c9c6c3bdcf8dda9)]
+###### Updated on 2021-06-16 [[a6ef9c9](https://github.com/dkataiev/cv/commit/a6ef9c9ec22567790744504e0c5042a48328f607)]
