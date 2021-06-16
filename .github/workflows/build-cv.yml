@@ -19,4 +19,4 @@ jobs:
           git pull origin ${{ github.head_ref }}
           git add -f README.md
           git commit -m "[Update_README_MD]: update README.md"
-          git push
+          git push git push --set-upstream origin ${{ github.head_ref }}
