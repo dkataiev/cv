@@ -20,7 +20,4 @@ jobs:
           git config --global user.name "Actions bot"
           git config --global user.email "bot@mail.com"
           git commit -am "[${{ github.job }}]: update README.md"
-          echo ${{ github.actor }}
-          echo ${{ github.ref }}
-          echo ${{ github.head_ref }}
-          echo ${{ github.base_ref }}          
+          git push origin ${{ github.head_ref }}       
