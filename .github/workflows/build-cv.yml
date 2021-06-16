@@ -21,7 +21,7 @@ jobs:
           git config --global user.email "bot@mail.com"
           echo Head - ${{ github.head_ref }}
           echo Base - ${{ github.base_ref }}
-          git pull origin ${{ github.base_ref }}
+          git fetch
           git add -f README.md
           git commit -m "[Update_README_MD]: update README.md"
           git push origin ${{ github.head_ref }}
