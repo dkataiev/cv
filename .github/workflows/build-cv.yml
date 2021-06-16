@@ -15,9 +15,8 @@ jobs:
       - run: python --version
       - name: Generate README.MD
         run: python src/json2md.py
-      - name: Push changes to repository
-        run: |
-          git config --global user.name "Actions bot"
-          git config --global user.email "bot@mail.com"
-          git commit -am "[${{ github.job }}]: update README.md"
-          git push origin ${{ github.head_ref }}       
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
