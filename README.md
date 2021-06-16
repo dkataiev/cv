@@ -157,4 +157,4 @@ ___
 
 ___
 
-###### Updated on 2021-06-16 [[5857166](https://github.com/dkataiev/cv/commit/5857166a77124f2cecb1c98b5edc42de9e2ff112)]
+###### Updated on 2021-06-16 [[ba5c0fb](https://github.com/dkataiev/cv/commit/ba5c0fb20dde9fd8a33842e6df7856cf6c363ebe)]
