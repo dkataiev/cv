@@ -1,5 +1,8 @@
 name: Generate CV Files
-on: push
+on: 
+  push:
+    branches:
+      - main
 jobs:
   Update_README_MD:
     runs-on: ubuntu-latest
