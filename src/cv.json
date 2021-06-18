@@ -20,6 +20,15 @@
     }
   ],
   "careerSummary": "During my career, I generally worked on web-services and enterprise level web-applications development using HTML, CSS and JavaScript for front-end and Java for back-end and third-party services integrations.",
+  "hardSkills": [
+    "Java 8, Spring, Spring Boot, Hibernate",
+    "React, Typescript, JavaScript, jQuery, HTML, CSS, JSP",
+    "MongoDB, PostgreSQL, MySQL",
+    "REST, Ajax, XML, Json",
+    "Atlassian Plugin SDK, ThingWorx, PTC Integrity, Eclipse RCP, JavaFX",
+    "ActiveMQ, GRPC, XML-RPC, Corba",
+    "Maven, Gradle, Ant, Git, SVN"
+  ],
   "languageSkills": [
     "Native skills in spoken and written Ukrainian",
     "Native skills in spoken and written Russian",
@@ -70,7 +79,7 @@
           "technologies": [
             "Java 8, Spring, Spring Boot",
             "ThingWorx, PTC Integrity",
-            "JavaScript, HTML, CSS, jQuery",
+            "JavaScript, HTML, CSS, jQuery, JSP",
             "REST, Ajax"
           ]
         },
@@ -84,7 +93,7 @@
           "technologies": [
             "Java 8, Spring, Spring Boot",
             "Atlassian Plugin SDK",
-            "JavaScript, HTML, CSS, jQuery",
+            "JavaScript, HTML, CSS, jQuery, JSP",
             "REST, Ajax"
           ]
         }
