@@ -158,8 +158,12 @@ ___
 ___
 
 ### Online education:
-* [MongoDB University] __M101P: MongoDB for Developers (November 2013 - January 2014)__ [Certificate](https://s3.amazonaws.com/edu-cert.10gen.com/downloads/566ffd62c0d647e89c136dab5ad86a49/Certificate.pdf) 
+* [Udemy] __The Complete Microservices With Spring Course (Decemder 2018)__ [Certificate](https://www.udemy.com/certificate/UC-RIMJBRLH/) 
+* [Udemy] __Docker - Hands On for Java Developers (December 2018 - Decemder 2018)__ [Certificate](https://www.udemy.com/certificate/UC-S44L9KEV/) 
+* [Udemy] __Nginx Fundamentals: High Performance Servers from Scratch (Decemder 2018)__ [Certificate](https://www.udemy.com/certificate/UC-VIAEQHZW/) 
+* [Udemy] __Liferay 7.0 CE and CMS Fundamentals - Crash Course (November 2018)__ [Certificate](https://www.udemy.com/certificate/UC-50XJ6337) 
 * [Udemy] __Fundamentals of IoT Development with ThingWorx (August 2018)__ [Certificate](https://udemy-certificate.s3.amazonaws.com/pdf/UC-17U79RE4.pdf) 
+* [MongoDB University] __M101P: MongoDB for Developers (November 2013 - January 2014)__ [Certificate](https://s3.amazonaws.com/edu-cert.10gen.com/downloads/566ffd62c0d647e89c136dab5ad86a49/Certificate.pdf) 
 
 ___
 
@@ -178,4 +182,4 @@ ___
 
 ___
 
-###### Updated on 2021-06-18 [[758c809](https://github.com/dkataiev/cv/commit/758c809febbe9bc2e512f6f4d3bac8cb5b856da1)]
+###### Updated on 2021-06-18 [[6226ceb](https://github.com/dkataiev/cv/commit/6226ceb438134974ec81b418010d37fcee4ee9e6)]
