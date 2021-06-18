@@ -50,7 +50,7 @@ def ul(items):
 
 
 def ul_title(text):
-    return h5(text)
+    return strong(text)
 
 
 def titled_ul(title, items):
@@ -89,15 +89,15 @@ def head_block(name, title):
 
 
 def contacts_block(data):
-    return titled_ul(ul_title('Contacts:'), [contact_text(c) for c in data])
+    return titled_ul(h4('Contacts:'), [contact_text(c) for c in data])
 
 
 def career_summary_block(data):
-    return PARA_SEPARATOR.join([h3('Career Summary:'), data])
+    return PARA_SEPARATOR.join([h4('Career Summary:'), data])
 
 
 def skills_block(data):
-    return titled_ul(ul_title('Skills:'), data)
+    return titled_ul(h4('Skills:'), data)
 
 
 def titled_item(title, text):
@@ -122,7 +122,7 @@ def project_item(data):
 def career_progression_item(data):
     title = "'{}'".format(data['title'])
     period = '{} - {}'.format(data['start'], data['end'])
-    item_title = '{} ({})'.format(h5(title), italic(period))
+    item_title = '{} ({})'.format(strong(title), italic(period))
 
     items = [
         titled_item("Company Description:", data['companyDescription']),
@@ -138,11 +138,11 @@ def career_progression_item(data):
 def career_progression_block(data):
     progression = [career_progression_item(c) for c in data]
     progression_block = BLOCK_SEPARATOR.join(progression)
-    return PARA_SEPARATOR.join([h3('Career Progression:'), progression_block])
+    return PARA_SEPARATOR.join([h4('Career Progression:'), progression_block])
 
 
 def language_skills_block(data):
-    return titled_ul(ul_title('Language Skills:'), data)
+    return titled_ul(h4('Language Skills:'), data)
 
 
 def online_education_item_title(ed):
@@ -159,7 +159,7 @@ def online_education_item(ed):
 
 
 def online_education_block(data):
-    return titled_ul(ul_title('Online education:'), [online_education_item(ed) for ed in data])
+    return titled_ul(h4('Online education:'), [online_education_item(ed) for ed in data])
 
 
 def classic_education_item(ed):
@@ -170,11 +170,11 @@ def classic_education_item(ed):
 
 
 def classic_education_block(data):
-    return titled_ul(ul_title('Education:'), [classic_education_item(ed) for ed in data])
+    return titled_ul(h4('Education:'), [classic_education_item(ed) for ed in data])
 
 
 def further_interests_block(data):
-    return titled_ul(ul_title('Further Interests:'), [link(d['title'], d['url']) for d in data])
+    return titled_ul(h4('Further Interests:'), [link(d['title'], d['url']) for d in data])
 
 
 def generate_md(cv):
