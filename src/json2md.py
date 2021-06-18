@@ -7,7 +7,7 @@ README_MD_FILE = 'README.md'
 CV_JSON = 'src/cv.json'
 
 BLOCK_SEPARATOR = '\n\n___\n\n'
-PARAGRAPH_SEPARATOR = '\n'
+PARA_SEPARATOR = '\n'
 
 HR = '---'
 
@@ -42,19 +42,19 @@ def li(text):
 
 def ul(items):
     list = [li(i) for i in items]
-    return PARAGRAPH_SEPARATOR.join(list)
+    return PARA_SEPARATOR.join(list)
 
 
 def titled_ul(title, items):
     list = [li(i) for i in items]
     list[0:0] = [h3(title)]
-    return PARAGRAPH_SEPARATOR.join(list)
+    return PARA_SEPARATOR.join(list)
 
 
 def sub_ul(items, level):
     offset = '\t' * level
     list = ['{}{}'.format(offset, li(i)) for i in items]
-    return PARAGRAPH_SEPARATOR.join(list)
+    return PARA_SEPARATOR.join(list)
 
 
 def link(title, body):
@@ -77,7 +77,7 @@ def contact_text(contact):
 
 
 def head_block(name, title):
-    return PARAGRAPH_SEPARATOR.join([
+    return PARA_SEPARATOR.join([
         h2(name),
         h3(title)
     ])
@@ -88,7 +88,11 @@ def contacts_block(data):
 
 
 def career_summary_block(data):
-    return PARAGRAPH_SEPARATOR.join([h3('Career Summary:'), data])
+    return PARA_SEPARATOR.join([h3('Career Summary:'), data])
+
+
+def skills_block(data):
+    return titled_ul('Skills:', data)
 
 
 def titled_item(title, text):
@@ -98,16 +102,16 @@ def titled_item(title, text):
 def project_item(data):
     title = titled_item("Project description:", data['projectDescription'])
     responsibilities = sub_ul(data['responsibilities'], 2)
-    responsibilities_text = '{}{}'.format(PARAGRAPH_SEPARATOR, responsibilities)
+    responsibilities_text = '{}{}'.format(PARA_SEPARATOR, responsibilities)
     technologies = sub_ul(data['technologies'], 2)
-    technologies_text = '{}{}'.format(PARAGRAPH_SEPARATOR, technologies)
+    technologies_text = '{}{}'.format(PARA_SEPARATOR, technologies)
     items = [
         titled_item("Project role:", data['role']),
         titled_item("Team size:", data['teamSize']),
         titled_item('Responsibilities:', responsibilities_text),
         titled_item('Technologies:', technologies_text)
     ]
-    return PARAGRAPH_SEPARATOR.join([title, sub_ul(items, 1)])
+    return PARA_SEPARATOR.join([title, sub_ul(items, 1)])
 
 
 def career_progression_item(data):
@@ -122,13 +126,13 @@ def career_progression_item(data):
     progresssion_item = titled_ul(title, items)
     project_items = [project_item(p) for p in data["projects"]]
 
-    return PARAGRAPH_SEPARATOR.join([progresssion_item, ul(project_items)])
+    return PARA_SEPARATOR.join([progresssion_item, ul(project_items)])
 
 
 def career_progression_block(data):
     progression = [career_progression_item(c) for c in data]
     progression_block = BLOCK_SEPARATOR.join(progression)
-    return PARAGRAPH_SEPARATOR.join([h2('Career Progression:'), progression_block])
+    return PARA_SEPARATOR.join([h2('Career Progression:'), progression_block])
 
 
 def language_skills_block(data):
@@ -154,9 +158,9 @@ def online_education_block(data):
 
 def classic_education_item(ed):
     title = '{} ({} - {})'.format(ed['institution'], ed['start'], ed['end'])
-    achivements = PARAGRAPH_SEPARATOR.join(
+    achivements = PARA_SEPARATOR.join(
         ['\t{}'.format(li(a)) for a in ed['achivements']])
-    return PARAGRAPH_SEPARATOR.join([strong(title), achivements])
+    return PARA_SEPARATOR.join([strong(title), achivements])
 
 
 def classic_education_block(data):
@@ -172,6 +176,7 @@ def generate_md(cv):
         head_block(cv['name'], cv['title']),
         contacts_block(cv['contacts']),
         career_summary_block(cv['careerSummary']),
+        skills_block(cv['hardSkills']),
         career_progression_block(cv['careerProgression']),
         language_skills_block(cv['languageSkills']),
         online_education_block(cv['onlineEducation']),
