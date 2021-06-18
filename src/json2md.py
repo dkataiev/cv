@@ -40,15 +40,20 @@ def li(text):
     return '* {}'.format(text)
 
 
-def ul(title, items):
+def ul(items):
+    list = [li(i) for i in items]
+    return PARAGRAPH_SEPARATOR.join(list)
+
+
+def titled_ul(title, items):
     list = [li(i) for i in items]
     list[0:0] = [h3(title)]
     return PARAGRAPH_SEPARATOR.join(list)
 
 
-def sub_ul(title, items):
-    list = ['\t{}'.format(li(i)) for i in items]
-    list[0:0] = [li(strong(title))]
+def sub_ul(items, level):
+    offset = '\t' * level
+    list = ['{}{}'.format(offset, li(i)) for i in items]
     return PARAGRAPH_SEPARATOR.join(list)
 
 
@@ -79,7 +84,7 @@ def head_block(name, title):
 
 
 def contacts_block(data):
-    return ul('Contacts:', [contact_text(c) for c in data])
+    return titled_ul('Contacts:', [contact_text(c) for c in data])
 
 
 def career_summary_block(data):
@@ -91,25 +96,33 @@ def titled_item(title, text):
 
 
 def project_item(data):
-    return [
-        titled_item("Project description:", data['projectDescription']),
+    title = titled_item("Project description:", data['projectDescription'])
+    responsibilities = sub_ul(data['responsibilities'], 2)
+    responsibilities_text = '{}{}'.format(PARAGRAPH_SEPARATOR, responsibilities)
+    technologies = sub_ul(data['technologies'], 2)
+    technologies_text = '{}{}'.format(PARAGRAPH_SEPARATOR, technologies)
+    items = [
         titled_item("Project role:", data['role']),
-        titled_item("Employment type:", data['employmentType']),
-        titled_item("Team size:", data['teamSize'])
+        titled_item("Team size:", data['teamSize']),
+        titled_item('Responsibilities:', responsibilities_text),
+        titled_item('Technologies:', technologies_text)
     ]
+    return PARAGRAPH_SEPARATOR.join([title, sub_ul(items, 1)])
 
 
 def career_progression_item(data):
     period = '{} - {}'.format(data['start'], data['end'])
     title = "'{}' {}".format(data['title'], italic(period))
 
-    items = project_item(data)
-    items[0:0] = [titled_item("Company Description:",
-                              data['companyDescription'])]
-    progresssion_item = ul(title, items)
-    technologies = sub_ul('Technologies:', data['technologies'])
-    responsibilities = sub_ul('Responsibilities:', data['responsibilities'])
-    return PARAGRAPH_SEPARATOR.join([progresssion_item, responsibilities, technologies])
+    items = [
+        titled_item("Company Description:", data['companyDescription']),
+        titled_item("Employment type:", data['employmentType']),
+    ]
+
+    progresssion_item = titled_ul(title, items)
+    project_items = [project_item(p) for p in data["projects"]]
+
+    return PARAGRAPH_SEPARATOR.join([progresssion_item, ul(project_items)])
 
 
 def career_progression_block(data):
@@ -119,7 +132,7 @@ def career_progression_block(data):
 
 
 def language_skills_block(data):
-    return ul('Language Skills:', data)
+    return titled_ul('Language Skills:', data)
 
 
 def online_education_item_title(ed):
@@ -136,7 +149,7 @@ def online_education_item(ed):
 
 
 def online_education_block(data):
-    return ul('Online education:', [online_education_item(ed) for ed in data])
+    return titled_ul('Online education:', [online_education_item(ed) for ed in data])
 
 
 def classic_education_item(ed):
@@ -147,11 +160,11 @@ def classic_education_item(ed):
 
 
 def classic_education_block(data):
-    return ul('Education:', [classic_education_item(ed) for ed in data])
+    return titled_ul('Education:', [classic_education_item(ed) for ed in data])
 
 
 def further_interests_block(data):
-    return ul('Further Interests:', [link(d['title'], d['url']) for d in data])
+    return titled_ul('Further Interests:', [link(d['title'], d['url']) for d in data])
 
 
 def generate_md(cv):

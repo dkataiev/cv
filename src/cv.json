@@ -1,207 +1,245 @@
 {
-    "name": "Dmytro Kataiev",
-    "title": "Java Developer",
-    "birthDate": "12.09.1987",
-    "contacts": [
+  "name": "Dmytro Kataiev",
+  "title": "Java Developer",
+  "birthDate": "12.09.1987",
+  "contacts": [
+    {
+      "type": "Email",
+      "title": "d.kataiev@gmail.com",
+      "link": "mailto:d.kataiev@gmail.com"
+    },
+    {
+      "type": "LinkedIn",
+      "title": "dkataiev",
+      "link": "https://www.linkedin.com/in/dkataiev"
+    },
+    {
+      "type": "Github",
+      "title": "dkataiev",
+      "link": "https://github.com/dkataiev"
+    }
+  ],
+  "careerSummary": "During my career, I generally worked on web-services and enterprise level web-applications development using HTML, CSS and JavaScript for front-end and Java for back-end and third-party services integrations.",
+  "languageSkills": [
+    "Native skills in spoken and written Ukrainian",
+    "Native skills in spoken and written Russian",
+    "Upper intermediate skills in spoken and written English"
+  ],
+  "careerProgression": [
+    {
+      "title": "Nanga Systems GmbH",
+      "companyDescription": "Nanga Systems is the IT specialist for systems engineering (SE), application lifecycle management (ALM) and product lifecycle management (PLM). We advise large corporate groups and SMEs on issues ranging from their strategic alignment to their go-live, including solutions from PTC.",
+      "employmentType": "full time.",
+      "start": "August 2019",
+      "end": "Present",
+      "country": "Ukraine",
+      "projects": [
         {
-            "type": "Email",
-            "title": "d.kataiev@gmail.com",
-            "link": "mailto:d.kataiev@gmail.com"
-        },
-        {
-            "type": "LinkedIn",
-            "title": "dkataiev",
-            "link": "https://www.linkedin.com/in/dkataiev"
-        },
-        {
-            "type": "Github",
-            "title": "dkataiev",
-            "link": "https://github.com/dkataiev"
+          "projectDescription": "PTC Integrity and ThingWorx integration.",
+          "role": "Senior Java developer / Project Manager.",
+          "teamSize": "5-10 members.",
+          "responsibilities": [
+            "Custom PTC Integrity and ThingWorx integration"
+          ],
+          "technologies": [
+            "Java 8, Spring, Spring Boot",
+            "ThingWorx, PTC Integrity",
+            "React, Typescript, HTML, CSS",
+            "REST, Ajax"
+          ]
         }
-    ],
-    "careerSummary": "During my career, I generally worked on web-services and enterprise level web-applications development using HTML, CSS and JavaScript for front-end and Java for back-end and third-party services integrations.",
-    "languageSkills": [
-        "Native skills in spoken and written Ukrainian",
-        "Native skills in spoken and written Russian",
-        "Upper intermediate skills in spoken and written English"
-    ],
-    "careerProgression": [
+      ]
+    },
+    {
+      "title": "Princip_IT",
+      "companyDescription": "Princip_IT is a software development company located in Kiev which creates both universal and custom IT solutions based on profound market know how.",
+      "employmentType": "full time.",
+      "start": "September 2017",
+      "end": "July 2019",
+      "country": "Ukraine",
+      "projects": [
         {
-            "title": "Nanga Systems GmbH",
-            "start": "August 2019",
-            "end": "Present",
-            "companyDescription": "Nanga Systems is the IT specialist for systems engineering (SE), application lifecycle management (ALM) and product lifecycle management (PLM). We advise large corporate groups and SMEs on issues ranging from their strategic alignment to their go-live, including solutions from PTC.",
-            "projectDescription": "PTC Integrity and ThingWorx integration.",
-            "role": "Senior Java developer / Project Manager.",
-            "employmentType": "full employment.",
-            "teamSize": "5-10 members.",
-            "responsibilities": [
-                "Custom PTC Integrity and ThingWorx integration"
-            ],
-            "technologies": [
-                "Java 8, Spring, Spring Boot",
-                "ThingWorx, PTC Integrity",
-                "React, Typescript, HTML, CSS",
-                "REST, Ajax"
-            ]
+          "projectDescription": "PTC Integrity and ThingWorx integration.",
+          "role": "Senior Java developer.",
+          "teamSize": "5-10 members.",
+          "start": "August 2018",
+          "end": "July 2019",
+          "responsibilities": [
+            "Custom PTC Integrity and ThingWorx integration."
+          ],
+          "technologies": [
+            "Java 8, Spring, Spring Boot",
+            "ThingWorx, PTC Integrity",
+            "JavaScript, HTML, CSS, jQuery",
+            "REST, Ajax"
+          ]
         },
         {
-            "title": "Princip_IT",
-            "start": "September 2017",
-            "end": "July 2019",
-            "companyDescription": "Princip_IT is a software development company located in Kiev which creates both universal and custom IT solutions based on profound market know how.",
-            "projectDescription": "Atlassian Confluence based document workflow plugin.",
-            "role": "Senior Java developer.",
-            "employmentType": "full employment.",
-            "teamSize": "5-10 members.",
-            "responsibilities": [
-                "Core and UI components implementation."
-            ],
-            "technologies": [
-                "Java 8, Spring, Spring Boot",
-                "Atlassian Plugin SDK, ThingWorx, PTC Integrity",
-                "JavaScript, HTML, CSS, jQuery",
-                "REST, Ajax"
-            ]
-        },
-        {
-            "title": "NPBFX",
-            "start": "May 2014",
-            "end": "September 2017",
-            "companyDescription": "NPBFX Company specializes in providing trading services on FOREX for individual traders and institutional clients.",
-            "projectDescription": "Spring-based CRM system and client's personal office.",
-            "role": "Senior Java developer.",
-            "employmentType": "remote work.",
-            "teamSize": "5-10 members.",
-            "responsibilities": [
-                "Communication with the customer to determine product functionality, define the architecture and estimate the overall work",
-                "Designing application from scratch",
-                "Core and UI components implementation",
-                "Application integration with trade system platform",
-                "Application integration with third-party services (SorexPay, OragePay, NexmoSMS)",
-                "Build and deploy automation",
-                "Product delivery"
-            ],
-            "technologies": [
-                "Spring 3.x, Hibernate",
-                "ActiveMQ, GRPC, XML-RPC, Corba",
-                "JSP, Twitter Bootstrap",
-                "REST, Ajax",
-                "Tomcat 7.x",
-                "PostgreSQL"
-            ]
-        },
-        {
-            "title": "AFT Project",
-            "country": "Russia",
-            "start": "July 2011",
-            "end": "May 2014",
-            "companyDescription": "Small company focused on developing financial software for large investment companies and brokers operating on the OTC markets (Forex, CFD).",
-            "projectDescription": "Eclipse RCP based Forex trading system client terminal.",
-            "role": "Middle Java developer.",
-            "employmentType": "remote work.",
-            "teamSize": "2-5 members.",
-            "responsibilities": [
-                "Core and UI plugin implementation",
-                "Client API implementation",
-                "Eclipse RCP application localization",
-                "Multiplatform Eclipse RCP application build automation"
-            ],
-            "technologies": [
-                "Eclipse RCP, SWT, OSGi",
-                "ActiveMQ, XML-RPC, Corba",
-                "Ant, WiX",
-                "PostgreSQL"
-            ]
-        },
-        {
-            "title": "Labyrintti Media Ltd",
-            "country": "Finland",
-            "start": "October 2010",
-            "end": "May 2011",
-            "companyDescription": "Finland's leading supplier of SMS solutions. Over 1,500 Finnish companies and organizations are using company's services.",
-            "projectDescription": "Highly functional mobile services for text and multimedia messaging.",
-            "role": "Junior Java developer.",
-            "employmentType": "full employment.",
-            "teamSize": "5-10 members.",
-            "responsibilities": [
-                "Enterprise level Web application development",
-                "Integration of this application with third party applications via. REST web services",
-                "Core and UI components implementation"
-            ],
-            "technologies": [
-                "Spring 2.x, Ibatis, DWR",
-                "HTML, CSS, JavaScript",
-                "REST, Ajax",
-                "Maven",
-                "MySql"
-            ]
-        },
-        {
-            "title": "eXo Platform SAS UA",
-            "country": "Ukraine",
-            "start": "April 2008",
-            "end": "August 2010",
-            "companyDescription": "Nanga Systems is the IT specialist for systems engineering (SE), application lifecycle management (ALM) and product lifecycle management (PLM). We advise large corporate groups and SMEs on issues ranging from their strategic alignment to their go-live, including solutions from PTC.",
-            "projectDescription": "Enterprise Social collaboration software.",
-            "role": "Junior Java developer.",
-            "employmentType": "full employment.",
-            "teamSize": "5-10 members.",
-            "responsibilities": [
-                "REST-services implementation",
-                "WebDAV protocol specification implementation",
-                "WebDAV-client plugins for MS Office and OpenOffice",
-                "Build and Release process improvement"
-            ],
-            "technologies": [
-                "Hibernate",
-                "XML, Json",
-                "JUnit, Japex",
-                "Maven"
-            ]
+          "projectDescription": "Document workflow system based on Atlassian Confluence and Atlassian Jira.",
+          "role": "Senior Java developer.",
+          "teamSize": "5-10 members.",
+          "start": "September 2017",
+          "end": "August 2018",
+          "responsibilities": ["Core and UI components implementation."],
+          "technologies": [
+            "Java 8, Spring, Spring Boot",
+            "Atlassian Plugin SDK",
+            "JavaScript, HTML, CSS, jQuery",
+            "REST, Ajax"
+          ]
         }
-    ],
-    "classicEducation": [
+      ]
+    },
+    {
+      "title": "NPBFX",
+      "companyDescription": "NPBFX Company specializes in providing trading services on FOREX for individual traders and institutional clients.",
+      "employmentType": "remote work.",
+      "start": "May 2014",
+      "end": "September 2017",
+      "country": "Russia",
+      "projects": [
         {
-            "institution": "Cherkasy State University 'Bohdan Hmelnycky'",
-            "start": "2004",
-            "end": "2008",
-            "achivements": [
-                "Diploma of Bachelor in 'Intellectual systems of decision-making'",
-                "I participated in additional workshops where got an experience of software development process using concepts of TDD, XP and Agile"
-            ]
-        },
-        {
-            "institution": "Cherkasy Specialized school #17",
-            "start": "1994",
-            "end": "2004",
-            "achivements": []
+          "projectDescription": "Spring-based CRM system and client's personal office.",
+          "role": "Senior Java developer.",
+          "teamSize": "5-10 members.",
+          "responsibilities": [
+            "Communication with the customer to determine product functionality, define the architecture and estimate the overall work",
+            "Designing application from scratch",
+            "Core and UI components implementation",
+            "Application integration with trade system platform",
+            "Application integration with third-party services (SorexPay, OragePay, NexmoSMS)",
+            "Build and deploy automation",
+            "Product delivery"
+          ],
+          "technologies": [
+            "Spring 3.x, Hibernate",
+            "ActiveMQ, GRPC, XML-RPC, Corba",
+            "JSP, Twitter Bootstrap",
+            "REST, Ajax",
+            "Tomcat 7.x",
+            "PostgreSQL"
+          ]
         }
-    ],
-    "onlineEducation": [
+      ]
+    },
+    {
+      "title": "AFT Project",
+      "companyDescription": "Small company focused on developing financial software for large investment companies and brokers operating on the OTC markets (Forex, CFD).",
+      "employmentType": "remote work.",
+      "start": "July 2011",
+      "end": "May 2014",
+      "country": "Russia",
+      "projects": [
         {
-            "title": "M101P: MongoDB for Developers",
-            "start": "November 2013",
-            "end": "January 2014",
-            "certificate": "https://s3.amazonaws.com/edu-cert.10gen.com/downloads/566ffd62c0d647e89c136dab5ad86a49/Certificate.pdf",
-            "platform": "MongoDB University"
-        },
-        {
-            "title": "Fundamentals of IoT Development with ThingWorx",
-            "start": "August 2018",
-            "end": "August 2018",
-            "certificate": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-17U79RE4.pdf",
-            "platform": "Udemy"
+          "projectDescription": "Eclipse RCP based Forex trading system client terminal.",
+          "role": "Middle Java developer.",
+          "teamSize": "2-5 members.",
+          "responsibilities": [
+            "Core and UI plugin implementation",
+            "Client API implementation",
+            "Eclipse RCP application localization",
+            "Multiplatform Eclipse RCP application build automation"
+          ],
+          "technologies": [
+            "Eclipse RCP, SWT, OSGi",
+            "ActiveMQ, XML-RPC, Corba",
+            "Ant, WiX",
+            "PostgreSQL"
+          ]
         }
-    ],
-    "furtherInterests": [
+      ]
+    },
+    {
+      "title": "Labyrintti Media Ltd",
+      "companyDescription": "Finland's leading supplier of SMS solutions. Over 1,500 Finnish companies and organizations are using company's services.",
+      "employmentType": "full time.",
+      "start": "October 2010",
+      "end": "May 2011",
+      "country": "Finland",
+      "projects": [
         {
-            "title": "Photography",
-            "url": "https://dk.gallery"
-        },
-        {
-            "title": "Go (Baduk)",
-            "url": "https://www.gokgs.com/graphPage.jsp?user=dkataiev"
+          "projectDescription": "Highly functional mobile services for text and multimedia messaging.",
+          "role": "Junior Java developer.",
+          "teamSize": "10 members.",
+          "responsibilities": [
+            "Enterprise level Web application development",
+            "Integration of this application with third party applications via. REST web services",
+            "Core and UI components implementation"
+          ],
+          "technologies": [
+            "Spring 2.x, Ibatis, DWR",
+            "HTML, CSS, JavaScript",
+            "REST, Ajax",
+            "Maven",
+            "MySql"
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "title": "eXo Platform SAS UA",
+      "companyDescription": "Nanga Systems is the IT specialist for systems engineering (SE), application lifecycle management (ALM) and product lifecycle management (PLM). We advise large corporate groups and SMEs on issues ranging from their strategic alignment to their go-live, including solutions from PTC.",
+      "employmentType": "full time.",
+      "start": "April 2008",
+      "end": "August 2010",
+      "country": "Ukraine",
+      "projects": [
+        {
+          "projectDescription": "Enterprise Social collaboration software.",
+          "role": "Junior Java developer.",
+          "teamSize": "10-30 members.",
+          "responsibilities": [
+            "REST-services implementation",
+            "WebDAV protocol specification implementation",
+            "WebDAV-client plugins for MS Office and OpenOffice",
+            "Build and Release process improvement"
+          ],
+          "technologies": ["Hibernate", "XML, Json", "JUnit, Japex", "Maven"]
+        }
+      ]
+    }
+  ],
+  "classicEducation": [
+    {
+      "institution": "Cherkasy State University 'Bohdan Hmelnycky'",
+      "start": "2004",
+      "end": "2008",
+      "achivements": [
+        "Diploma of Bachelor in 'Intellectual systems of decision-making'",
+        "I participated in additional workshops where got an experience of software development process using concepts of TDD, XP and Agile"
+      ]
+    },
+    {
+      "institution": "Cherkasy Specialized school #17",
+      "start": "1994",
+      "end": "2004",
+      "achivements": []
+    }
+  ],
+  "onlineEducation": [
+    {
+      "title": "M101P: MongoDB for Developers",
+      "start": "November 2013",
+      "end": "January 2014",
+      "certificate": "https://s3.amazonaws.com/edu-cert.10gen.com/downloads/566ffd62c0d647e89c136dab5ad86a49/Certificate.pdf",
+      "platform": "MongoDB University"
+    },
+    {
+      "title": "Fundamentals of IoT Development with ThingWorx",
+      "start": "August 2018",
+      "end": "August 2018",
+      "certificate": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-17U79RE4.pdf",
+      "platform": "Udemy"
+    }
+  ],
+  "furtherInterests": [
+    {
+      "title": "Photography",
+      "url": "https://dk.gallery"
+    },
+    {
+      "title": "Go (Baduk)",
+      "url": "https://www.gokgs.com/graphPage.jsp?user=dkataiev"
+    }
+  ]
 }
