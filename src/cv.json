@@ -29,28 +29,31 @@
     {
       "title": "Nanga Systems GmbH",
       "companyDescription": "Nanga Systems is the IT specialist for systems engineering (SE), application lifecycle management (ALM) and product lifecycle management (PLM). We advise large corporate groups and SMEs on issues ranging from their strategic alignment to their go-live, including solutions from PTC.",
-      "employmentType": "full employment.",
-      "teamSize": "5-10 members.",
+      "employmentType": "full time.",
       "start": "August 2019",
       "end": "Present",
       "country": "Ukraine",
-      "projects":[{
-        "projectDescription": "PTC Integrity and ThingWorx integration.",
-        "role": "Senior Java developer / Project Manager.",
-        "responsibilities": ["Custom PTC Integrity and ThingWorx integration"],
-        "technologies": [
-          "Java 8, Spring, Spring Boot",
-          "ThingWorx, PTC Integrity",
-          "React, Typescript, HTML, CSS",
-          "REST, Ajax"
-        ]
-      }]
+      "projects": [
+        {
+          "projectDescription": "PTC Integrity and ThingWorx integration.",
+          "role": "Senior Java developer / Project Manager.",
+          "teamSize": "5-10 members.",
+          "responsibilities": [
+            "Custom PTC Integrity and ThingWorx integration"
+          ],
+          "technologies": [
+            "Java 8, Spring, Spring Boot",
+            "ThingWorx, PTC Integrity",
+            "React, Typescript, HTML, CSS",
+            "REST, Ajax"
+          ]
+        }
+      ]
     },
     {
       "title": "Princip_IT",
       "companyDescription": "Princip_IT is a software development company located in Kiev which creates both universal and custom IT solutions based on profound market know how.",
-      "employmentType": "full employment.",
-      "teamSize": "5-10 members.",
+      "employmentType": "full time.",
       "start": "September 2017",
       "end": "July 2019",
       "country": "Ukraine",
@@ -58,6 +61,7 @@
         {
           "projectDescription": "PTC Integrity and ThingWorx integration.",
           "role": "Senior Java developer.",
+          "teamSize": "5-10 members.",
           "start": "August 2018",
           "end": "July 2019",
           "responsibilities": [
@@ -73,6 +77,7 @@
         {
           "projectDescription": "Document workflow system based on Atlassian Confluence and Atlassian Jira.",
           "role": "Senior Java developer.",
+          "teamSize": "5-10 members.",
           "start": "September 2017",
           "end": "August 2018",
           "responsibilities": ["Core and UI components implementation."],
@@ -89,7 +94,6 @@
       "title": "NPBFX",
       "companyDescription": "NPBFX Company specializes in providing trading services on FOREX for individual traders and institutional clients.",
       "employmentType": "remote work.",
-      "teamSize": "5-10 members.",
       "start": "May 2014",
       "end": "September 2017",
       "country": "Russia",
@@ -97,6 +101,7 @@
         {
           "projectDescription": "Spring-based CRM system and client's personal office.",
           "role": "Senior Java developer.",
+          "teamSize": "5-10 members.",
           "responsibilities": [
             "Communication with the customer to determine product functionality, define the architecture and estimate the overall work",
             "Designing application from scratch",
@@ -121,7 +126,6 @@
       "title": "AFT Project",
       "companyDescription": "Small company focused on developing financial software for large investment companies and brokers operating on the OTC markets (Forex, CFD).",
       "employmentType": "remote work.",
-      "teamSize": "2-5 members.",
       "start": "July 2011",
       "end": "May 2014",
       "country": "Russia",
@@ -129,6 +133,7 @@
         {
           "projectDescription": "Eclipse RCP based Forex trading system client terminal.",
           "role": "Middle Java developer.",
+          "teamSize": "2-5 members.",
           "responsibilities": [
             "Core and UI plugin implementation",
             "Client API implementation",
@@ -147,8 +152,7 @@
     {
       "title": "Labyrintti Media Ltd",
       "companyDescription": "Finland's leading supplier of SMS solutions. Over 1,500 Finnish companies and organizations are using company's services.",
-      "employmentType": "full employment.",
-      "teamSize": "5-10 members.",
+      "employmentType": "full time.",
       "start": "October 2010",
       "end": "May 2011",
       "country": "Finland",
@@ -156,6 +160,7 @@
         {
           "projectDescription": "Highly functional mobile services for text and multimedia messaging.",
           "role": "Junior Java developer.",
+          "teamSize": "10 members.",
           "responsibilities": [
             "Enterprise level Web application development",
             "Integration of this application with third party applications via. REST web services",
@@ -175,7 +180,6 @@
       "title": "eXo Platform SAS UA",
       "companyDescription": "Nanga Systems is the IT specialist for systems engineering (SE), application lifecycle management (ALM) and product lifecycle management (PLM). We advise large corporate groups and SMEs on issues ranging from their strategic alignment to their go-live, including solutions from PTC.",
       "employmentType": "full time.",
-      "teamSize": "5-10 members.",
       "start": "April 2008",
       "end": "August 2010",
       "country": "Ukraine",
@@ -183,6 +187,7 @@
         {
           "projectDescription": "Enterprise Social collaboration software.",
           "role": "Junior Java developer.",
+          "teamSize": "10-30 members.",
           "responsibilities": [
             "REST-services implementation",
             "WebDAV protocol specification implementation",
