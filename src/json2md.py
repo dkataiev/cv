@@ -24,6 +24,10 @@ def h4(text):
     return '#### {}'.format(text)
 
 
+def h5(text):
+    return '##### {}'.format(text)
+
+
 def h6(text):
     return '###### {}'.format(text)
 
@@ -45,9 +49,13 @@ def ul(items):
     return PARA_SEPARATOR.join(list)
 
 
+def ul_title(text):
+    return h5(text)
+
+
 def titled_ul(title, items):
     list = [li(i) for i in items]
-    list[0:0] = [h3(title)]
+    list[0:0] = [title]
     return PARA_SEPARATOR.join(list)
 
 
@@ -77,14 +85,11 @@ def contact_text(contact):
 
 
 def head_block(name, title):
-    return PARA_SEPARATOR.join([
-        h2(name),
-        h3(title)
-    ])
+    return h3('{} - {}'.format(name, title))
 
 
 def contacts_block(data):
-    return titled_ul('Contacts:', [contact_text(c) for c in data])
+    return titled_ul(ul_title('Contacts:'), [contact_text(c) for c in data])
 
 
 def career_summary_block(data):
@@ -92,7 +97,7 @@ def career_summary_block(data):
 
 
 def skills_block(data):
-    return titled_ul('Skills:', data)
+    return titled_ul(ul_title('Skills:'), data)
 
 
 def titled_item(title, text):
@@ -115,15 +120,16 @@ def project_item(data):
 
 
 def career_progression_item(data):
+    title = "'{}'".format(data['title'])
     period = '{} - {}'.format(data['start'], data['end'])
-    title = "'{}' {}".format(data['title'], italic(period))
+    item_title = '{} ({})'.format(h5(title), italic(period))
 
     items = [
         titled_item("Company Description:", data['companyDescription']),
         titled_item("Employment type:", data['employmentType']),
     ]
 
-    progresssion_item = titled_ul(title, items)
+    progresssion_item = titled_ul(item_title, items)
     project_items = [project_item(p) for p in data["projects"]]
 
     return PARA_SEPARATOR.join([progresssion_item, ul(project_items)])
@@ -132,11 +138,11 @@ def career_progression_item(data):
 def career_progression_block(data):
     progression = [career_progression_item(c) for c in data]
     progression_block = BLOCK_SEPARATOR.join(progression)
-    return PARA_SEPARATOR.join([h2('Career Progression:'), progression_block])
+    return PARA_SEPARATOR.join([h3('Career Progression:'), progression_block])
 
 
 def language_skills_block(data):
-    return titled_ul('Language Skills:', data)
+    return titled_ul(ul_title('Language Skills:'), data)
 
 
 def online_education_item_title(ed):
@@ -153,7 +159,7 @@ def online_education_item(ed):
 
 
 def online_education_block(data):
-    return titled_ul('Online education:', [online_education_item(ed) for ed in data])
+    return titled_ul(ul_title('Online education:'), [online_education_item(ed) for ed in data])
 
 
 def classic_education_item(ed):
@@ -164,11 +170,11 @@ def classic_education_item(ed):
 
 
 def classic_education_block(data):
-    return titled_ul('Education:', [classic_education_item(ed) for ed in data])
+    return titled_ul(ul_title('Education:'), [classic_education_item(ed) for ed in data])
 
 
 def further_interests_block(data):
-    return titled_ul('Further Interests:', [link(d['title'], d['url']) for d in data])
+    return titled_ul(ul_title('Further Interests:'), [link(d['title'], d['url']) for d in data])
 
 
 def generate_md(cv):
