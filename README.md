@@ -2,19 +2,19 @@
 
 ___
 
-##### Contacts:
+#### Contacts:
 * __Email:__ [d.kataiev@gmail.com](mailto:d.kataiev@gmail.com)
 * __LinkedIn:__ [dkataiev](https://www.linkedin.com/in/dkataiev)
 * __Github:__ [dkataiev](https://github.com/dkataiev)
 
 ___
 
-### Career Summary:
+#### Career Summary:
 During my career, I generally worked on web-services and enterprise level web-applications development using HTML, CSS and JavaScript for front-end and Java for back-end and third-party services integrations.
 
 ___
 
-##### Skills:
+#### Skills:
 * Java 8, Spring, Spring Boot, Hibernate
 * React, Typescript, JavaScript, jQuery, HTML, CSS, JSP
 * MongoDB, PostgreSQL, MySQL
@@ -25,8 +25,8 @@ ___
 
 ___
 
-### Career Progression:
-##### 'Nanga Systems GmbH' (*August 2019 - Present*)
+#### Career Progression:
+__'Nanga Systems GmbH'__ (*August 2019 - Present*)
 * __Company Description:__ Nanga Systems is the IT specialist for systems engineering (SE), application lifecycle management (ALM) and product lifecycle management (PLM). We advise large corporate groups and SMEs on issues ranging from their strategic alignment to their go-live, including solutions from PTC.
 * __Employment type:__ full time.
 * __Project description:__ PTC Integrity and ThingWorx integration.
@@ -42,7 +42,7 @@ ___
 
 ___
 
-##### 'Princip_IT' (*September 2017 - July 2019*)
+__'Princip_IT'__ (*September 2017 - July 2019*)
 * __Company Description:__ Princip_IT is a software development company located in Kiev which creates both universal and custom IT solutions based on profound market know how.
 * __Employment type:__ full time.
 * __Project description:__ PTC Integrity and ThingWorx integration.
@@ -68,7 +68,7 @@ ___
 
 ___
 
-##### 'NPBFX' (*May 2014 - September 2017*)
+__'NPBFX'__ (*May 2014 - September 2017*)
 * __Company Description:__ NPBFX Company specializes in providing trading services on FOREX for individual traders and institutional clients.
 * __Employment type:__ remote work.
 * __Project description:__ Spring-based CRM system and client's personal office.
@@ -92,7 +92,7 @@ ___
 
 ___
 
-##### 'AFT Project' (*July 2011 - May 2014*)
+__'AFT Project'__ (*July 2011 - May 2014*)
 * __Company Description:__ Small company focused on developing financial software for large investment companies and brokers operating on the OTC markets (Forex, CFD).
 * __Employment type:__ remote work.
 * __Project description:__ Eclipse RCP based Forex trading system client terminal.
@@ -111,7 +111,7 @@ ___
 
 ___
 
-##### 'Labyrintti Media Ltd' (*October 2010 - May 2011*)
+__'Labyrintti Media Ltd'__ (*October 2010 - May 2011*)
 * __Company Description:__ Finland's leading supplier of SMS solutions. Over 1,500 Finnish companies and organizations are using company's services.
 * __Employment type:__ full time.
 * __Project description:__ Highly functional mobile services for text and multimedia messaging.
@@ -130,7 +130,7 @@ ___
 
 ___
 
-##### 'eXo Platform SAS UA' (*April 2008 - August 2010*)
+__'eXo Platform SAS UA'__ (*April 2008 - August 2010*)
 * __Company Description:__ Nanga Systems is the IT specialist for systems engineering (SE), application lifecycle management (ALM) and product lifecycle management (PLM). We advise large corporate groups and SMEs on issues ranging from their strategic alignment to their go-live, including solutions from PTC.
 * __Employment type:__ full time.
 * __Project description:__ Enterprise Social collaboration software.
@@ -149,14 +149,14 @@ ___
 
 ___
 
-##### Language Skills:
+#### Language Skills:
 * Native skills in spoken and written Ukrainian
 * Native skills in spoken and written Russian
 * Upper intermediate skills in spoken and written English
 
 ___
 
-##### Online education:
+#### Online education:
 * [Udemy] __The Complete Microservices With Spring Course (Decemder 2018)__ [Certificate](https://www.udemy.com/certificate/UC-RIMJBRLH/) 
 * [Udemy] __Docker - Hands On for Java Developers (December 2018 - Decemder 2018)__ [Certificate](https://www.udemy.com/certificate/UC-S44L9KEV/) 
 * [Udemy] __Nginx Fundamentals: High Performance Servers from Scratch (Decemder 2018)__ [Certificate](https://www.udemy.com/certificate/UC-VIAEQHZW/) 
@@ -166,7 +166,7 @@ ___
 
 ___
 
-##### Education:
+#### Education:
 * __Cherkasy State University 'Bohdan Hmelnycky' (2004 - 2008)__
 	* Diploma of Bachelor in 'Intellectual systems of decision-making'
 	* I participated in additional workshops where got an experience of software development process using concepts of TDD, XP and Agile
@@ -175,10 +175,10 @@ ___
 
 ___
 
-##### Further Interests:
+#### Further Interests:
 * [Photography](https://dk.gallery)
 * [Go (Baduk)](https://www.gokgs.com/graphPage.jsp?user=dkataiev)
 
 ___
 
-###### Updated on 2021-06-18 [[109103e](https://github.com/dkataiev/cv/commit/109103ed530eb2a02b9ae9874594e3f9a662a7fc)]
+###### Updated on 2021-06-18 [[18c8098](https://github.com/dkataiev/cv/commit/18c8098d1a696c0b33e816692e05beb3b6236cd3)]
