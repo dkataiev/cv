@@ -15,6 +15,17 @@ During my career, I generally worked on web-services and enterprise level web-ap
 
 ___
 
+### Skills:
+* Java 8, Spring, Spring Boot, Hibernate
+* React, Typescript, JavaScript, jQuery, HTML, CSS, JSP
+* MongoDB, PostgreSQL, MySQL
+* REST, Ajax, XML, Json
+* Atlassian Plugin SDK, ThingWorx, PTC Integrity, Eclipse RCP, JavaFX
+* ActiveMQ, GRPC, XML-RPC, Corba
+* Maven, Gradle, Ant, Git, SVN
+
+___
+
 ## Career Progression:
 ### 'Nanga Systems GmbH' *August 2019 - Present*
 * __Company Description:__ Nanga Systems is the IT specialist for systems engineering (SE), application lifecycle management (ALM) and product lifecycle management (PLM). We advise large corporate groups and SMEs on issues ranging from their strategic alignment to their go-live, including solutions from PTC.
@@ -43,7 +54,7 @@ ___
 	* __Technologies:__ 
 		* Java 8, Spring, Spring Boot
 		* ThingWorx, PTC Integrity
-		* JavaScript, HTML, CSS, jQuery
+		* JavaScript, HTML, CSS, jQuery, JSP
 		* REST, Ajax
 * __Project description:__ Document workflow system based on Atlassian Confluence and Atlassian Jira.
 	* __Project role:__ Senior Java developer.
@@ -53,7 +64,7 @@ ___
 	* __Technologies:__ 
 		* Java 8, Spring, Spring Boot
 		* Atlassian Plugin SDK
-		* JavaScript, HTML, CSS, jQuery
+		* JavaScript, HTML, CSS, jQuery, JSP
 		* REST, Ajax
 
 ___
@@ -167,4 +178,4 @@ ___
 
 ___
 
-###### Updated on 2021-06-18 [[53c321a](https://github.com/dkataiev/cv/commit/53c321a2139476ab4d30425b0e16cfb8c8cd53f1)]
+###### Updated on 2021-06-18 [[758c809](https://github.com/dkataiev/cv/commit/758c809febbe9bc2e512f6f4d3bac8cb5b856da1)]
