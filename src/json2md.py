@@ -4,7 +4,7 @@ import os
 from datetime import date
 
 README_MD_FILE = 'README.md'
-CV_JSON = 'src/cv.json'
+CV_JSON = 'src/data/cv.json'
 
 BLOCK_SEPARATOR = '\n\n___\n\n'
 PARA_SEPARATOR = '\n'
