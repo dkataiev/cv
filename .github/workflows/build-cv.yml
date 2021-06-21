@@ -9,15 +9,17 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
+      -name: Install wkhtmltopdf
+        sudo apt-get install wkhtmltopdf
       - name: Setup Python
         uses: actions/setup-python@v2.2.2
       - run: python --version
-      - name: Generate README.MD
+      - name: Generate CV files
         run: python src/json2md.py
       - name: Push changes to repository
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "Autogenerate README.md"
+          git commit README.md -m "Autogenerate README.md"
           git push

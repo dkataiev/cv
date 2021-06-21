@@ -3,12 +3,8 @@ import os
 
 from datetime import date
 
-README_MD_FILE = 'README.md'
-CV_JSON = 'src/data/cv.json'
-
 BLOCK_SEPARATOR = '\n\n___\n\n'
 PARA_SEPARATOR = '\n'
-
 HR = '---'
 
 
@@ -190,13 +186,3 @@ def generate_md(cv):
         further_interests_block(cv['furtherInterests']),
         meta()
     ])
-
-
-if __name__ == '__main__':
-    with open(CV_JSON) as cv_json:
-        content = generate_md(json.load(cv_json))
-        print('Writing to {}'.format(README_MD_FILE))
-        f = open(README_MD_FILE, 'w')
-        f.write(content)
-        f.close()
-        print('Done')

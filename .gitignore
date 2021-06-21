@@ -1,6 +1,6 @@
 .history
 .venv
+__pycache__
 *.DS_Store
 *.code-workspace
-**/cv.html
 **/cv.pdf
