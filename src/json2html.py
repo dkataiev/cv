@@ -1,7 +1,5 @@
 import json
 
-from datetime import date
-from os import name
 from mako.template import Template
 
 CV_JSON = 'src/data/cv.json'
