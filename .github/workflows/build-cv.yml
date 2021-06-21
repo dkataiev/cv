@@ -14,6 +14,8 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v2.2.2
       - run: python --version
+      - name: Install dependencies
+        run: pip install -r requirements.txt
       - name: Generate CV files
         run: python src/script.py
       - name: Push changes to repository
