@@ -181,4 +181,4 @@ ___
 
 ___
 
-###### Updated on 2021-06-21 [[ffac537](https://github.com/dkataiev/cv/commit/ffac537e6cbbf934b08745a378932722df287a53)]
+###### Updated on 2021-06-21 [[1d22413](https://github.com/dkataiev/cv/commit/1d224137af8dab9538fd09d01f2a8e8bfa1b00dc)]
