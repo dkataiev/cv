@@ -1,4 +1,6 @@
+import base64
 import json
+
 
 from datetime import date
 from mako.template import Template
@@ -10,6 +12,8 @@ README_MD_FILE = 'README.md'
 CV_JSON = 'src/data/cv.json'
 CV_PDF = 'src/html/cv.pdf'
 
+PHOTO_PATH = 'src/html/img/dkataiev.png'
+
 HTML_TEMPLATE = 'src/html/template.html'
 
 
@@ -19,8 +23,13 @@ PDF_OPTIONS = {
     'margin-right': '0.25in',
     'margin-bottom': '0.25in',
     'margin-left': '0.25in',
-    'quiet':''
+    'enable-local-file-access': None
 }
+
+
+def base64img(path):
+    with open(path, 'rb') as image_file:
+        return 'data:image/png;base64, {}'.format(base64.b64encode(image_file.read()).decode("UTF-8"))
 
 
 def generate_markdown(cv_json):
@@ -34,7 +43,10 @@ def generate_markdown(cv_json):
 
 def generate_pdf(cv_json):
     cv_template = Template(filename=HTML_TEMPLATE)
-    html_content = cv_template.render(cv=cv_json)
+    html_content = cv_template.render(
+        cv=cv_json,
+        photo_data=base64img(PHOTO_PATH)
+    )
     from_string(html_content, CV_PDF, PDF_OPTIONS)
 
 
