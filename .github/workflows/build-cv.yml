@@ -10,12 +10,12 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: Install wkhtmltopdf
-        sudo apt-get install wkhtmltopdf
+        run: sudo apt-get install wkhtmltopdf
       - name: Setup Python
         uses: actions/setup-python@v2.2.2
       - run: python --version
       - name: Generate CV files
-        run: python src/json2md.py
+        run: python src/script.py
       - name: Push changes to repository
         run: |
           git config user.name github-actions
